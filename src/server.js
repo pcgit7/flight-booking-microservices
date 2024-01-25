@@ -7,7 +7,6 @@ const apiRoutes = require('./Routes');
 
 const setupAndStartServer = async () => {
     const app = express();
-
     app.use(bodyParser.json());
     app.use(bodyParser.urlencoded({extended : true}));
 
